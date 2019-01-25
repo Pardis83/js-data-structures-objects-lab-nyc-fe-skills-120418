@@ -1,10 +1,6 @@
 // Write your solution in this file!
 const driver={}
   function updateDriverWithKeyAndValue(driver, key, value{
-    {
-    const newDriver={...driver}
-    driver[key] = value
-    return newDriver
-  }
-  
-updateDriverWithKeyAndValue(driver, address, value)
+  let copyDriver={...driver}
+  copyDriver[key] = value
+}
